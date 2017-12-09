@@ -6,6 +6,7 @@ body {
   font-size: 22px;
   text-align: center;
   opacity: 0.9;
+  border: 10px solid black;
 }
 
 .flex-container {
@@ -22,8 +23,11 @@ header {
     background-color: black;
     border-bottom: 1px solid seashell;
     align-items: center;
-}
+    }
 
+header.flex-container {
+  justify-content: space-between;
+  }
 header img {
   height: 50px;
   padding-left: 10px;
@@ -32,3 +36,48 @@ header img {
 a {
   color: seashell;
 }
+
+nav span {
+  padding: 20px 10px;
+}
+#mission {
+  height: 700px;
+  width: 1200px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+padding-top: 70px;
+}
+
+.content {
+  background-color: black;
+  width: 1200px;
+  z-index: 5;
+  height: 110px;
+  margin-top: 290px;
+    }
+
+    h2 {
+    margin-top: 10px;
+    }
+
+    h4 {
+      margin-top: -5px;
+    }
+
+    .flex-container items {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+          }
+
+        #month {
+      width: 1000px;
+      height: 700px;
+      margin: auto;
+      padding-top: 70px;
+    }
+
+    .item {
+      width: 300px;
+      height: 200px;
+      justify-content: center;
+    }
